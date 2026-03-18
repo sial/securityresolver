@@ -6,8 +6,8 @@ import com.telekom.psa.domain.Verdict;
 import java.util.regex.Pattern;
 
 /**
- * A rule that requires a specific pattern to be present in the snippet.
- * When the pattern is absent, the snippet is in violation (failed).
+ * A rule that requires a specific pattern to be present.
+ * When the pattern is absent, the snippet is in violation.
  */
 public final class RequiredPatternRule implements Rule {
 

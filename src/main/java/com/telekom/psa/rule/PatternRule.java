@@ -7,7 +7,7 @@ import java.util.regex.Pattern;
 
 /**
  * A rule that detects violations via a regex pattern.
- * When the pattern matches, the snippet is in violation (failed).
+ * When the pattern matches, the snippet is in violation.
  */
 public final class PatternRule implements Rule {
 
